@@ -1,0 +1,119 @@
+body {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#555555;
+	background-color: #efefef;
+}
+h1{
+	color:#000000;
+}
+h3{
+	margin-top: -20px;
+}
+#main{
+	width:800px; 
+	margin:0 auto; 
+	margin-top:60px;
+}
+#search_bar {
+	width: 800px;
+	background:#318CE7; 
+	padding:10px;
+	clear: left;
+}
+#search_bar .search-style{
+	font-size:16px; 
+	color:#999999; 
+	border:solid 1px #CCCCCC; 
+	padding:4px;
+}
+ul#tabs, ul#tabs li {
+	padding:0; 
+	border:0; 
+	margin:0; 
+	list-style:none;
+}
+ul{
+	clear:both;
+}
+ul li a{
+	float:left; 
+	margin-right:1px; 
+	width:auto; 
+	background:#779ECB; 
+	padding:8px; 
+	color:#003366; 
+	text-decoration:none; 
+	font-weight:bold;
+}
+.selected a{
+	background:#318CE7; 
+	color:#FFFFFF;
+}
+ul li.selected a{
+	background:#318CE7; 
+	color:#FFFFFF;
+}
+#search input {
+	background: none repeat scroll 0 0 #fff;
+	border: 0 none;
+	color: #7F7F7F;
+	float: left;
+	font: 17px 'Helvetica','Lucida Sans Unicode','Lucida Grande';
+	height: 20px;
+	margin: 0;
+	padding: 10px;
+	transition: background 0.3s ease-in-out 0s;
+	width: 738px;
+}
+#search button {
+	background: url("../images/search.png") no-repeat scroll center center #318CE7;
+	cursor: pointer;
+	height: 40px;
+	text-indent: -99999em;
+	transition: background 0.3s ease-in-out 0s;
+	width: 40px;
+	border: 2px solid #fff;
+}
+#search button:hover {
+	background-color:#1560BD;
+}
+div#categories{
+	margin-top: 5px;
+}
+label {
+    color:#f2f2f2;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+span.errors{
+	float: right;
+	color: red;
+	margin-top: 3px;
+
+}
+#results_container table{
+	background-color: white;
+	width: 820px;
+	margin-top: 10px;
+	color: white;
+}
+tr#header td{
+	padding:3px;
+	background-color: #318CE7;
+}
+td{
+	background-color: #72A0C1;
+	padding: 5px;
+}
+h1 {
+	color: #318CE7;
+}
+#spinner{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 128px;
+	height: 128px;
+	background: url("../images/spinner_big.gif") no-repeat scroll center center #318CE7;
+}
